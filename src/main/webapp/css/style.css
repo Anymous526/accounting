@@ -1,0 +1,55 @@
+body {
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	background: #198bc9;
+}
+
+body,div,table,tr,th,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p
+	{
+	margin: 0;
+	padding: 0
+}
+
+table,td,tr,th {
+	font-size: 12px
+}
+
+li {
+	list-style-type: none
+}
+
+table {
+	margin: 0 auto
+}
+
+img {
+	vertical-align: top;
+	border: 0
+}
+
+ol,ul {
+	list-style: none
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 12px;
+	font-weight: 400
+}
+
+input,textarea,select,option {
+	font-family: Arial, sans-serif;
+	font-size: 12px
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
