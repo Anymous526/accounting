@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wallet</groupId>
 	<artifactId>accounting</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>war</packaging>
 	<name>wallet web app</name>
 	<description>Personal accounting system </description>
@@ -139,8 +139,8 @@
 		<!-- /apache commons -->
 		<dependency>
 			<groupId>com.wallet</groupId>
-			<artifactId>javase-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>common</artifactId>
+			<version>1.0</version>
 		</dependency>
 	</dependencies>
 
