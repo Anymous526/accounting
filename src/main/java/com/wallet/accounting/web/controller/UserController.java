@@ -19,6 +19,11 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
+	@RequestMapping("/login")
+	public ModelAndView login(String loginName, String pwd) {
+		return new ModelAndView();
+	}
+
 	@RequestMapping("/list")
 	public ModelAndView getAllUsers() {
 		List<User> users = userService.findAllUser();
