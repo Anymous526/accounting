@@ -4,12 +4,12 @@ import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.wallet.accounting.dao.BaseBao;
+import com.wallet.accounting.dao.BaseDao;
 import com.wallet.accounting.dao.UserDao;
 import com.wallet.accounting.entity.User;
 
 @Repository
-public class MyBatisUserDao extends BaseBao implements UserDao {
+public class MyBatisUserDao extends BaseDao implements UserDao {
 
 	private static final long serialVersionUID = -8680295073080841532L;
 
